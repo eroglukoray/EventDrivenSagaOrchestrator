@@ -1,7 +1,7 @@
 ﻿using MassTransit;
 using Shared.Events;
 
-namespace StockService.Consumers
+namespace Shared.Consumers
 {
     public class PaymentSucceededConsumer : IConsumer<PaymentSucceeded>
     {
