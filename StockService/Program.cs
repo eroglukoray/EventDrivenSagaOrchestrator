@@ -1,6 +1,6 @@
 using MassTransit;
 
-using StockService.Consumers;
+using Shared.Consumers;
 
 var builder = WebApplication.CreateBuilder(args);
 
